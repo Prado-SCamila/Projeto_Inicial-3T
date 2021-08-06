@@ -9447,19 +9447,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pedro\\.nuget\\packages\\": {}
+    "C:\\Users\\prado\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\Projetos SENAI\\Projeto_Inicial-3T\\SimplyStorage\\SimplyStorage.csproj",
+      "projectUniqueName": "C:\\Users\\prado\\OneDrive\\Área de Trabalho\\ProjetoInicial-G5\\Projeto_Inicial-3T\\SimplyStorage\\SimplyStorage.csproj",
       "projectName": "SimplyStorage",
-      "projectPath": "D:\\Desktop\\Projetos SENAI\\Projeto_Inicial-3T\\SimplyStorage\\SimplyStorage.csproj",
-      "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\Projetos SENAI\\Projeto_Inicial-3T\\SimplyStorage\\obj\\",
+      "projectPath": "C:\\Users\\prado\\OneDrive\\Área de Trabalho\\ProjetoInicial-G5\\Projeto_Inicial-3T\\SimplyStorage\\SimplyStorage.csproj",
+      "packagesPath": "C:\\Users\\prado\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\prado\\OneDrive\\Área de Trabalho\\ProjetoInicial-G5\\Projeto_Inicial-3T\\SimplyStorage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\prado\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9558,7 +9558,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
