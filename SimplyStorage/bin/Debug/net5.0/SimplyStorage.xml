@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimplyStorage</name>
+    </assembly>
+    <members>
+        <member name="T:SimplyStorage.Controllers.SalaController">
+            <summary>
+            Controller responsável pelos endpoints (URLs) referentes as salas
+            </summary>
+        </member>
+        <member name="P:SimplyStorage.Controllers.SalaController._SalaRepository">
+            <summary>
+            Objeto _SalaRepository que irá receber os métodos definidos na interface iSala
+            </summary>
+        </member>
+        <member name="M:SimplyStorage.Controllers.SalaController.#ctor">
+            <summary>
+            Instancia o objeto _SalaRepository para que haja a referência aos métodos no repositório
+            </summary>
+        </member>
+        <member name="M:SimplyStorage.Controllers.SalaController.Get">
+            <summary>
+            Lista todas as salas
+            </summary>
+            <returns>Uma lista com as salas e um status code 200 - Ok</returns>
+        </member>
+        <member name="M:SimplyStorage.Controllers.SalaController.GetById(System.Int32)">
+            <summary>
+            Busca uma sala através do id
+            </summary>
+            <param name="id">id da sala que será buscada</param>
+            <returns>um tipo de evento buscado e um status code 200 - Ok</returns>
+        </member>
+        <member name="M:SimplyStorage.Controllers.SalaController.Post(SimplyStorage.Domains.Sala)">
+            <summary>
+            Cadastra uma nova sala
+            </summary>
+            <param name="novaSala">Objeto novaSala que será cadastrado</param>
+            <returns>Um status code 201 - Created</returns>
+        </member>
+        <member name="M:SimplyStorage.Controllers.SalaController.Put(System.Int32,SimplyStorage.Domains.Sala)">
+            <summary>
+            Atualiza uma sala existente
+            </summary>
+            <param name="id">id da sala que será atualizada</param>
+            <param name="salaAtualizada">Um status code 204 - No Content</param>
+            <returns></returns>
+        </member>
+        <member name="M:SimplyStorage.Controllers.SalaController.Delete(System.Int32)">
+            <summary>
+            Deleta uma sala existente
+            </summary>
+            <param name="id">id da sala que será deletada</param>
+            <returns>Um status code 204 - No Content</returns>
+        </member>
+        <member name="M:SimplyStorage.Interfaces.iSala.Listar">
+            <summary>
+            Lista todas as salas
+            </summary>
+            <returns>Uma lista contendo as salas</returns>
+        </member>
+        <member name="M:SimplyStorage.Interfaces.iSala.BuscarPorId(System.Int32)">
+            <summary>
+            Busca uma sala através do id
+            </summary>
+            <param name="id"></param>
+            <returns>Uma sala buscada</returns>
+        </member>
+        <member name="M:SimplyStorage.Interfaces.iSala.Cadastrar(SimplyStorage.Domains.Sala)">
+            <summary>
+            Cadastra uma nova sala
+            </summary>
+            <param name="novaSala">Objeto novaSala que será cadastrado</param>
+        </member>
+        <member name="M:SimplyStorage.Interfaces.iSala.Atualizar(System.Int32,SimplyStorage.Domains.Sala)">
+            <summary>
+            Atualiza uma sala já existente
+            </summary>
+            <param name="salaAtualizada">Objeto com as novas informações</param>
+        </member>
+        <member name="M:SimplyStorage.Interfaces.iSala.Deletar(System.Int32)">
+            <summary>
+            Deleta uma sala existente
+            </summary>
+            <param name="id">id da sala que será deletada</param>
+        </member>
+        <member name="F:SimplyStorage.Repositories.SalaRepository.ctx">
+            <summary>
+            Objeto contexto por onde são chamados os métodos do EF Core
+            </summary> 
+        </member>
+        <member name="M:SimplyStorage.Repositories.SalaRepository.Atualizar(System.Int32,SimplyStorage.Domains.Sala)">
+            <summary>
+            Atualiza uma sala existente
+            </summary>
+            <param name="id">id da sala que será atualizada</param>
+            <param name="salaAtualizada">Objeto com as novas informações</param>
+        </member>
+        <member name="M:SimplyStorage.Repositories.SalaRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca uma sala através do id
+            </summary>
+            <param name="id"></param>
+            <returns>Uma sala buscada</returns>
+        </member>
+        <member name="M:SimplyStorage.Repositories.SalaRepository.Cadastrar(SimplyStorage.Domains.Sala)">
+            <summary>
+            Cadastra uma nova sala
+            </summary>
+            <param name="novaSala">Objeto novaSala que será cadastrado</param>
+        </member>
+        <member name="M:SimplyStorage.Repositories.SalaRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta uma sala existente
+            </summary>
+            <param name="id">id da sala que será deletada</param>
+        </member>
+        <member name="M:SimplyStorage.Repositories.SalaRepository.Listar">
+            <summary>
+            Lista todas as salas
+            </summary>
+            <returns>Uma lista de todas de salas</returns>
+        </member>
+    </members>
+</doc>
